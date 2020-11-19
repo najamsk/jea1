@@ -22,7 +22,7 @@ const Login = () => {
   const handleSubmit = async e => {
     e.preventDefault();
     try {
-      const response = await fetch('https://newsgrid.club/auth/local', {
+      const response = await fetch('https://www.newsgrid.club/auth/local', {
         method: 'POST',
         headers: {
           'Content-type': 'application/json'

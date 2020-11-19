@@ -9,7 +9,7 @@ import About from '../components/About';
 
 
 export default (
-  // { data }
+  { data }
   ) => {
   const { user, setUser } = useContext(UserContext);
 
@@ -40,7 +40,7 @@ export default (
     <Layout>
       <Hero />
       <About />
-      <Notices />
+      <Notices notices={notices} title="the latest notice" showLink/>
       {/* <Notices notices={notices} title="the latest notice" showLink /> */}
     </Layout>
   )

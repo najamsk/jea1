@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://newsgrid.club`,
+        apiURL: `https://www.newsgrid.club`,
         queryLimit: 1000, // Default to 100
         contentTypes: ['notices', 'lectures', 'abouts'],
         singleTypes: [],
